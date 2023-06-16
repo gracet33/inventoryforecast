@@ -57,8 +57,8 @@ def train_and_predict_top_products(present_top_products, monthly_sales, product_
 
 
 # Add your code to load the necessary data, e.g., present_top_products and monthly_sales
-present_top_products = pd.read_csv("/Users/GraceTee/present_top_products.csv")  
-monthly_sales = pd.read_csv("/Users/GraceTee/monthly_sales.csv")  
+present_top_products = pd.read_csv("present_top_products.csv")  
+monthly_sales = pd.read_csv("monthly_sales.csv")  
 
 def main():
     st.title("Product Sales Prediction")
